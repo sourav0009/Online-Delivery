@@ -1,0 +1,21 @@
+
+.order-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.order-items {
+  margin-top: 20px;
+}
+
+.order-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.total {
+  margin-top: 20px;
+  text-align: right;
+  font-weight: bold;
+}

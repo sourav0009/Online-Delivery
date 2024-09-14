@@ -1,0 +1,49 @@
+.about-us {
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background-image: url("../images/food2.jpg");
+    background-size: 1200px 800px;
+    column-gap: 30px;
+    background-color: #181313;
+}
+.about-us {
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background-size: 1200px 800px;
+    column-gap: 30px;
+    background-color: #181313;
+}
+
+.about {
+    width: 1500px;
+    max-width: 100%;
+    margin: 5 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.text-about {
+    width: 540px;
+}
+
+.text-about h2 {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.text-about h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.text-about p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}

@@ -1,25 +1,16 @@
-/* src/style.css */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-body {
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.sign{
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-image: url(foodimg2.jpg);
+  background-image: url('./assets/images/foodimg.jpg');
   background-size: 1000px 700px;
   column-gap: 30px;
 }
 
-.container {
+.container1 {
   max-width: 700px;
   width: 100%;
   background-color: #fff;
@@ -28,14 +19,13 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.container .title {
+.container1 .title {
   font-size: 25px;
   font-weight: 500;
   text-align: center;
-  /* position: relative; */
 }
 
-.container .title::before {
+.container1 .title::before {
   content: "";
   position: absolute;
   left: 0;
@@ -167,4 +157,4 @@ form .button input:hover {
   .container .content .category {
     flex-direction: column;
   }
-}
+} 
